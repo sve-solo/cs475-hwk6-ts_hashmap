@@ -23,3 +23,5 @@ int put(ts_hashmap_t *map, int key, int value);
 int del(ts_hashmap_t *map, int key);
 double lf(ts_hashmap_t *map);
 void printmap(ts_hashmap_t *map);
+
+extern pthread_mutex_t *array;
